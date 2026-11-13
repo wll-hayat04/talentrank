@@ -23,7 +23,7 @@ html, body, .stApp, [class*="css"] { font-family: var(--text); }
 header[data-testid="stHeader"] { background: transparent; }
 [data-testid="stDecoration"] { display: none; }
 .block-container { max-width: 1400px; padding: 1.2rem 2.2rem 3rem 2.2rem; }
-footer, #MainMenu, [data-testid="stToolbar"] { visibility: hidden; display: none; }
+footer, #MainMenu, [data-testid="stMainMenu"], [data-testid="stAppDeployButton"], [data-testid="stToolbarActions"], [data-testid="stStatusWidget"] { visibility: hidden; display: none; }
 
 /* ---------- Barre d'application ---------- */
 .appbar { display: flex; justify-content: space-between; align-items: center; gap: 2rem; flex-wrap: wrap; padding: 1.35rem 1.6rem; margin-bottom: 1.1rem; border: 1px solid var(--line); border-radius: 12px;
@@ -451,3 +451,10 @@ html:has(.proj-on) .stTabs [role="tablist"] { border-bottom: 1px solid #e7e0fa !
 /* Animations : une seule fois à l'arrivée, pas de boucle */
 .tr-float, .tr-float-slow { animation: tr-fade .9s ease-out both !important; }
 .tr-check { animation: tr-pop .6s .5s cubic-bezier(.2,.7,.2,1) both !important; }
+
+/* Bouton pour rouvrir la barre latérale : toujours visible quand elle est repliée */
+[data-testid="stToolbar"] { display: flex !important; visibility: visible !important; }
+[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] { visibility: visible !important; display: flex !important; }
+[data-testid="stExpandSidebarButton"] button, button[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] button {
+  background: #6135d5 !important; color: #fff !important; border-radius: 10px !important; width: 44px; height: 44px; box-shadow: 0 6px 16px rgba(97,53,213,.3); }
+[data-testid="stExpandSidebarButton"] svg, [data-testid="stExpandSidebarButton"] [data-testid="stIconMaterial"], [data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"] { color: #fff !important; fill: #fff !important; }
