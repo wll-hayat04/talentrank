@@ -1,0 +1,10 @@
+Nom : Kenza Idrissi
+Poste visé : Data Scientist junior | Rabat | 30 ans
+Formation : Doctorat en Physique numérique, Université Mohammed V (2025) ; Master Physique
+Expérience :
+- Doctorante (4 ans) : simulations numériques, analyse de grands volumes de données expérimentales.
+- Enseignante vacataire (2 ans) : travaux dirigés de méthodes numériques.
+Compétences : Python scientifique (NumPy, SciPy), statistiques bayésiennes, C++, LaTeX, apprentissage automatique (autoformation)
+Projets : 3 publications internationales ; réseau de neurones pour la détection d'anomalies dans des signaux.
+Langues : Arabe (natif), Français (courant), Anglais (C1)
+Prétentions salariales : 16 000 MAD net / mois

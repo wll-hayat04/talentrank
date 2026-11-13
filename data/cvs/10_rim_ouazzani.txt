@@ -1,0 +1,9 @@
+Nom : Rim Ouazzani
+Poste visé : Data Scientist junior | Marrakech | 23 ans
+Formation : Ingénieure Génie informatique, ENSA Marrakech (2025)
+Expérience :
+- PFE (5 mois) : système de recommandation de produits pour un site e-commerce (filtrage collaboratif).
+Compétences : Python, scikit-learn, SQL, Flask, notions de deep learning
+Projets : analyse exploratoire des données touristiques de Marrakech ; tableau de bord interactif.
+Langues : Arabe (natif), Français (courant), Anglais (B1)
+Prétentions salariales : 9 000 MAD net / mois

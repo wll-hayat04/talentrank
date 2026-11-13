@@ -1,0 +1,298 @@
+{
+ "source": "LLM (llama3.1:8b)",
+ "date": "13/11/2026 00:36",
+ "scores": {
+  "Yanis El Amrani": {
+   "C1": 7.0,
+   "C2": 8.0,
+   "C3": 8.0,
+   "C4": 7.5,
+   "C5": 7.5,
+   "C7": 12000.0
+  },
+  "Salma Benali": {
+   "C1": 8.0,
+   "C2": 8.0,
+   "C3": 7.0,
+   "C4": 7.0,
+   "C5": 7.0,
+   "C7": 15000.0
+  },
+  "Omar Tazi": {
+   "C1": 5.0,
+   "C2": 3.0,
+   "C3": 5.0,
+   "C4": 3.0,
+   "C5": 5.0,
+   "C7": 7000.0
+  },
+  "Imane Chraibi": {
+   "C1": 6.0,
+   "C2": 5.0,
+   "C3": 8.0,
+   "C4": 6.5,
+   "C5": 7.0,
+   "C7": 10000.0
+  },
+  "Mehdi Alaoui": {
+   "C1": 6.0,
+   "C2": 7.0,
+   "C3": 7.0,
+   "C4": 5.0,
+   "C5": 7.0,
+   "C7": 18000.0
+  },
+  "Kenza Idrissi": {
+   "C1": 6.0,
+   "C2": 7.5,
+   "C3": 9.0,
+   "C4": 8.0,
+   "C5": 9.0,
+   "C7": 16000.0
+  },
+  "Hamza Bennani": {
+   "C1": 6.0,
+   "C2": 2.0,
+   "C3": 4.0,
+   "C4": 7.0,
+   "C5": 7.0,
+   "C7": 8000.0
+  },
+  "Nadia Fassi": {
+   "C1": 8.0,
+   "C2": 5.0,
+   "C3": 8.0,
+   "C4": 7.0,
+   "C5": 9.0,
+   "C7": 11000.0
+  },
+  "Anas Berrada": {
+   "C1": 8.0,
+   "C2": 6.0,
+   "C3": 8.0,
+   "C4": 7.0,
+   "C5": 3.0,
+   "C7": 13000.0
+  },
+  "Rim Ouazzani": {
+   "C1": 6.0,
+   "C2": 3.0,
+   "C3": 7.0,
+   "C4": 6.0,
+   "C5": 6.0,
+   "C7": 9000.0
+  },
+  "Karim Lahlou": {
+   "C1": 5.0,
+   "C2": 8.0,
+   "C3": 7.0,
+   "C4": 4.0,
+   "C5": 7.0,
+   "C7": 22000.0
+  },
+  "Sara Mouline": {
+   "C1": 8.0,
+   "C2": 6.0,
+   "C3": 8.0,
+   "C4": 7.0,
+   "C5": 10.0,
+   "C7": 14000.0
+  }
+ },
+ "std": {
+  "Yanis El Amrani": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.5,
+   "C5": 0.5,
+   "C7": 0.0
+  },
+  "Salma Benali": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Omar Tazi": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Imane Chraibi": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.5,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Mehdi Alaoui": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Kenza Idrissi": {
+   "C1": 0.0,
+   "C2": 0.5,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Hamza Bennani": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Nadia Fassi": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Anas Berrada": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Rim Ouazzani": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Karim Lahlou": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  },
+  "Sara Mouline": {
+   "C1": 0.0,
+   "C2": 0.0,
+   "C3": 0.0,
+   "C4": 0.0,
+   "C5": 0.0,
+   "C7": 0.0
+  }
+ },
+ "justif": {
+  "Yanis El Amrani": {
+   "C1": "Le candidat a une bonne connaissance de Python, SQL et des bibliothèques de machine learning comme scikit-learn et XGBoost. Cependant, il n'a pas mentionné d'expérience avec des techniques de machine learning avancées comme le deep learning, ni d'utilisation de Git pour la mise en production.",
+   "C2": "Le candidat a deux stages de data science, l'un de 6 mois et l'autre de 3 mois, ce qui correspond à environ 1 an d'expérience data professionnelle.",
+   "C3": "Le candidat a un master en Intelligence Artificielle et une licence en Mathématiques appliquées, ce qui correspond à un niveau de formation élevé dans le domaine.",
+   "C4": "Le candidat a participé à une compétition Kaggle et a développé un chatbot, ce qui montre qu'il a des compétences en data science et qu'il a réalisé des projets concrets.",
+   "C5": "Le candidat a un niveau B2 en anglais, ce qui est acceptable pour un poste de data scientist junior.",
+   "C7": "Le candidat a indiqué une prétention salariale de 12 000 MAD net/mois, ce qui est dans la fourchette attendue."
+  },
+  "Salma Benali": {
+   "C1": "Compétences techniques solides en Python, SQL, scikit-learn, LightGBM, PyTorch, Hugging Face, MLflow, Airflow et AWS. Cependant, le niveau de compétence en ML avancé (boosting, deep learning) n'est pas explicitement mentionné.",
+   "C2": "Expérience pertinente en tant que Data Scientist (CDI, 1 an) dans une banque marocaine, avec des réalisations mesurables (réduction de 18 % des faux positifs). Un PFE de 6 mois en classification de réclamations clients par NLP est également mentionné.",
+   "C3": "Formation en ingénieure d'État, Génie informatique option Data, EMI Rabat (2024), qui correspond à un niveau de master ou diplôme d'ingénieur en informatique/data/statistiques.",
+   "C4": "Projets et réalisations mentionnés, notamment l'analyse de sentiments en darija (article présenté à une conférence nationale) et les réalisations en tant que Data Scientist dans la banque marocaine.",
+   "C5": "Langues professionnelles : anglais B2 et français courant.",
+   "C7": "Prétentions salariales de 15 000 MAD net/mois."
+  },
+  "Omar Tazi": {
+   "C1": "Le candidat a des notions de Python, mais pas de mise en production partielle ou de ML avancé.",
+   "C2": "Le candidat a effectué un stage de 2 mois en développement web, mais pas d'expérience en data science.",
+   "C3": "Le candidat a une licence en développement informatique, ce qui est pertinent pour le poste.",
+   "C4": "Le candidat a un projet de gestion de bibliothèque, mais pas de résultats chiffrés ou de compétitions.",
+   "C5": "Le candidat a un bon niveau de français et un niveau A2 en anglais.",
+   "C7": "Le candidat prétend à 7 000 MAD net/mois."
+  },
+  "Imane Chraibi": {
+   "C1": "Compétences techniques : Python, SQL et ML de base (scikit-learn) sont mentionnées, mais pas de Git, de mise en production partielle ou d'une stack complète data/ML.",
+   "C2": "Expérience pertinente : un stage de 4 mois en analyse de risque de crédit, mais pas d'expérience professionnelle en data science.",
+   "C3": "Formation : Master en Statistique et Économétrie, INSEA, ce qui correspond à un niveau de master ou diplôme d'ingénieur en informatique/data/statistiques.",
+   "C4": "Projets et réalisations : un projet de prévision de l'inflation au Maroc, mais pas de résultats chiffrés, de compétitions ou de portfolio public.",
+   "C5": "Langues : anglais B1, ce qui correspond à un bon niveau d'anglais technique.",
+   "C7": "Prétentions salariales : 10 000 MAD net/mois, ce qui est dans la fourchette du budget."
+  },
+  "Mehdi Alaoui": {
+   "C1": "Le candidat a une bonne connaissance de Python et SQL, ainsi que des bases de scikit-learn, mais il manque d'expérience en ML avancé et en mise en production.",
+   "C2": "Le candidat a environ 4 ans d'expérience dans le domaine de l'analyse de données, ce qui est considéré comme une expérience pertinente.",
+   "C3": "Le candidat a un master en systèmes d'information, ce qui correspond à la formation requise.",
+   "C4": "Le candidat a un projet de modèle de churn interne, mais il n'y a pas de résultats chiffrés ou de compétitions mentionnés.",
+   "C5": "Le candidat a un niveau B1 en anglais, ce qui est considéré comme un bon niveau.",
+   "C7": "La prétention salariale est de 18 000 MAD net/mois."
+  },
+  "Kenza Idrissi": {
+   "C1": "Le candidat a des compétences en Python scientifique (NumPy, SciPy) et en apprentissage automatique, mais il n'est pas mentionné qu'il a utilisé scikit-learn ou d'autres bibliothèques de machine learning.",
+   "C2": "Le candidat a 4 ans d'expérience en tant que doctorante, ce qui est considéré comme une expérience pertinente en data science.",
+   "C3": "Le candidat a un doctorat en Physique numérique, ce qui est un diplôme très adapté au poste de Data Scientist junior.",
+   "C4": "Le candidat a réalisé un réseau de neurones pour la détection d'anomalies dans des signaux, ce qui est un projet complet en data science.",
+   "C5": "Le candidat a un niveau C1 en anglais, ce qui est un bon niveau pour un poste de Data Scientist junior.",
+   "C7": "La prétention salariale est de 16 000 MAD net/mois, ce qui est dans la fourchette attendue."
+  },
+  "Hamza Bennani": {
+   "C1": "Python, scikit-learn, Streamlit ; SQL en bases.",
+   "C2": "Reconversion : expérience commerciale, pas en data.",
+   "C3": "Bootcamp + licence d'économie.",
+   "C4": "5 projets GitHub et contributions open source.",
+   "C5": "Anglais B1 + espagnol B1.",
+   "C7": "Montant indiqué dans le CV."
+  },
+  "Nadia Fassi": {
+   "C1": "PyTorch, OpenCV, SQL ; Spark en bases.",
+   "C2": "PFE de 6 mois en vision + un stage de 2 mois.",
+   "C3": "Ingénieure INPT en Data Engineering.",
+   "C4": "Détection de défauts à 94 % de précision.",
+   "C5": "Anglais C1 (IELTS 7.5) + allemand A2.",
+   "C7": "Montant indiqué dans le CV."
+  },
+  "Anas Berrada": {
+   "C1": "Spark, Kafka, Docker, scikit-learn.",
+   "C2": "Stage de 6 mois sur 2 millions de clients.",
+   "C3": "Master Big Data, adapté.",
+   "C4": "Recommandation temps réel, finaliste de hackathon.",
+   "C5": "Anglais A2.",
+   "C7": "Montant indiqué dans le CV."
+  },
+  "Rim Ouazzani": {
+   "C1": "Python, scikit-learn, Flask ; deep learning en notions.",
+   "C2": "PFE de 5 mois seulement.",
+   "C3": "Ingénieure ENSA en informatique.",
+   "C4": "Système de recommandation, tableau de bord.",
+   "C5": "Anglais B1.",
+   "C7": "Montant indiqué dans le CV."
+  },
+  "Karim Lahlou": {
+   "C1": "Java expert, Python intermédiaire, ML via un certificat en ligne.",
+   "C2": "8 ans d'expérience, mais peu en data.",
+   "C3": "Ingénieur ENSIAS en génie logiciel.",
+   "C4": "Un prototype de classification interne.",
+   "C5": "Anglais B2.",
+   "C7": "Montant indiqué dans le CV."
+  },
+  "Sara Mouline": {
+   "C1": "Python, XGBoost, SHAP, SQL, Tableau.",
+   "C2": "Stage data scientist de 6 mois (assurance).",
+   "C3": "Master Data Science, Paris-Saclay.",
+   "C4": "Mémoire sur l'équité des modèles, projet qualité de l'air.",
+   "C5": "Français bilingue, anglais C1, espagnol B2.",
+   "C7": "Montant indiqué dans le CV."
+  }
+ }
+}

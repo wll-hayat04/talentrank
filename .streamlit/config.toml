@@ -1,0 +1,10 @@
+[theme]
+base = "light"
+primaryColor = "#4B2BC9"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F0FC"
+textColor = "#0E0B1A"
+font = "sans serif"
+dataframeHeaderBackgroundColor = "#E6E0FA"
+dataframeHeaderTextColor = "#2A1F6B"
+dataframeBorderColor = "#C9C3DE"

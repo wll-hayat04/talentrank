@@ -1,0 +1,10 @@
+Nom : Salma Benali
+Poste visé : Data Scientist | Casablanca | 26 ans
+Formation : Ingénieure d'État, Génie informatique option Data, EMI Rabat (2024)
+Expérience :
+- Data Scientist (CDI, 1 an), banque marocaine : détection de fraude sur cartes, modèle LightGBM en production, réduction de 18 % des faux positifs.
+- PFE (6 mois) : classification de réclamations clients par NLP (BERT multilingue).
+Compétences : Python, SQL, scikit-learn, LightGBM, PyTorch, Hugging Face, MLflow, Airflow, AWS (certifiée Cloud Practitioner)
+Projets : analyse de sentiments en darija (article présenté à une conférence nationale).
+Langues : Arabe (natif), Français (courant), Anglais (B2)
+Prétentions salariales : 15 000 MAD net / mois

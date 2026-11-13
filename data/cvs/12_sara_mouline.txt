@@ -1,0 +1,9 @@
+Nom : Sara Mouline
+Poste visé : Data Scientist junior | Rabat | 25 ans
+Formation : Master Data Science, Université Paris-Saclay (2025) ; Classes préparatoires, Lycée Moulay Youssef
+Expérience :
+- Stage Data Scientist (6 mois), assureur à Paris : modèle de tarification (GLM, gradient boosting), interprétabilité SHAP.
+Compétences : Python, SQL, scikit-learn, XGBoost, SHAP, Git, Tableau
+Projets : prédiction de la qualité de l'air ; mémoire sur l'équité des modèles de scoring.
+Langues : Arabe (natif), Français (bilingue), Anglais (C1), Espagnol (B2)
+Prétentions salariales : 14 000 MAD net / mois

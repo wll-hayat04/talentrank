@@ -1,0 +1,10 @@
+Nom : Karim Lahlou
+Poste visé : Data Scientist | Casablanca | 33 ans
+Formation : Ingénieur Génie logiciel, ENSIAS (2016)
+Expérience :
+- Développeur senior Java (6 ans), société de services informatiques : applications bancaires, encadrement d'une équipe de 4 développeurs.
+- Développeur (2 ans), éditeur logiciel.
+Compétences : Java, Spring, SQL, architecture logicielle, Python (intermédiaire), cours en ligne de machine learning (certificat)
+Projets : prototype interne de classification de tickets de support.
+Langues : Arabe (natif), Français (courant), Anglais (B2)
+Prétentions salariales : 22 000 MAD net / mois

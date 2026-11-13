@@ -1,0 +1,10 @@
+Nom : Yanis El Amrani
+Poste visé : Data Scientist junior | Rabat | 25 ans
+Formation : Master Intelligence Artificielle, ENSIAS (2025) ; Licence Mathématiques appliquées, FS Rabat
+Expérience :
+- Stage Data Scientist, OCP Group (6 mois, 2025) : modèle de prévision de la demande (XGBoost), gain de 12 % sur l'erreur MAPE.
+- Stage ML, startup fintech Casablanca (3 mois, 2024) : scoring de risque client, déploiement d'une API FastAPI.
+Compétences : Python, pandas, scikit-learn, XGBoost, TensorFlow, SQL, Git, Docker (bases)
+Projets : Top 8 % compétition Kaggle (prévision de ventes) ; chatbot RAG sur documents administratifs.
+Langues : Arabe (natif), Français (courant), Anglais (B2, TOEIC 860)
+Prétentions salariales : 12 000 MAD net / mois

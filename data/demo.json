@@ -1,0 +1,516 @@
+{
+ "poste": {
+  "titre": "Data Scientist junior",
+  "entreprise": "Entreprise fictive (Rabat)",
+  "description": "CDI à Rabat. Missions : construire et déployer des modèles de machine learning (scoring, prévision, NLP), préparer les données avec SQL et Python, présenter les résultats aux équipes métier. Profil : bac+5 en data/informatique/statistiques, 0 à 2 ans d'expérience, bon niveau d'anglais technique. Budget : 9 000 à 16 000 MAD net/mois."
+ },
+ "criteres": [
+  {
+   "code": "C1",
+   "nom": "Compétences techniques",
+   "type": "max",
+   "source": "llm",
+   "grille": "0-2 : aucune compétence data ; 3-4 : notions de Python/SQL ; 5-6 : Python, SQL et ML de base (scikit-learn) ; 7-8 : ML avancé (boosting, deep learning), Git, mise en production partielle ; 9-10 : stack complète data/ML (MLOps, cloud, deep learning) démontrée en contexte professionnel.",
+   "numerique": false
+  },
+  {
+   "code": "C2",
+   "nom": "Expérience pertinente",
+   "type": "max",
+   "source": "llm",
+   "grille": "0-2 : aucune expérience data ; 3-4 : un stage court ou une expérience non data ; 5-6 : un ou deux stages data de plus de 3 mois ; 7-8 : environ 1 an d'expérience data professionnelle ; 9-10 : 2 ans ou plus en data science avec résultats mesurables.",
+   "numerique": false
+  },
+  {
+   "code": "C3",
+   "nom": "Formation",
+   "type": "max",
+   "source": "llm",
+   "grille": "0-2 : sans diplôme supérieur ; 3-4 : bac+2/bac+3 hors domaine ; 5-6 : licence ou bootcamp dans le domaine ; 7-8 : master ou diplôme d'ingénieur en informatique/data/statistiques ; 9-10 : grande école d'ingénieurs ou doctorat très adapté au poste.",
+   "numerique": false
+  },
+  {
+   "code": "C4",
+   "nom": "Projets et réalisations",
+   "type": "max",
+   "source": "llm",
+   "grille": "0-2 : aucun projet ; 3-4 : projets scolaires simples ; 5-6 : projets data complets ; 7-8 : projets avec résultats chiffrés, compétitions ou portfolio public ; 9-10 : réalisations reconnues (publications, prix, produits en production).",
+   "numerique": false
+  },
+  {
+   "code": "C5",
+   "nom": "Langues",
+   "type": "max",
+   "source": "llm",
+   "grille": "Note sur le français et l'anglais professionnels. 0-2 : ni français ni anglais exploitables ; 3-4 : anglais A1-A2 ; 5-6 : anglais B1 ; 7-8 : anglais B2 ; 9-10 : anglais C1 ou plus, et/ou une langue supplémentaire de niveau B2.",
+   "numerique": false
+  },
+  {
+   "code": "C6",
+   "nom": "Soft skills / communication",
+   "type": "max",
+   "source": "recruteurs",
+   "grille": "Évalué par les recruteurs après un entretien, avec des termes linguistiques (de « Très mauvais » à « Très bon »).",
+   "numerique": false
+  },
+  {
+   "code": "C7",
+   "nom": "Prétentions salariales (MAD/mois)",
+   "type": "min",
+   "source": "llm",
+   "grille": "Montant net mensuel en MAD tel qu'indiqué dans le CV (critère à minimiser).",
+   "numerique": true
+  }
+ ],
+ "candidats": [
+  {
+   "nom": "Yanis El Amrani",
+   "fichier": "01_youssef_el_amrani.txt",
+   "scores": {
+    "C1": 8,
+    "C2": 6,
+    "C3": 8,
+    "C4": 8,
+    "C5": 8,
+    "C7": 12000
+   },
+   "justifications": {
+    "C1": "Python, scikit-learn, XGBoost, TensorFlow et SQL ; Docker seulement en bases.",
+    "C2": "Deux stages data (6 et 3 mois) avec résultats chiffrés.",
+    "C3": "Master IA à l'ENSIAS, très adapté.",
+    "C4": "Top 8 % Kaggle et chatbot RAG.",
+    "C5": "Anglais B2 (TOEIC 860).",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Yanis El Amrani\nPoste visé : Data Scientist junior | Rabat | 25 ans\nFormation : Master Intelligence Artificielle, ENSIAS (2025) ; Licence Mathématiques appliquées, FS Rabat\nExpérience :\n- Stage Data Scientist, OCP Group (6 mois, 2025) : modèle de prévision de la demande (XGBoost), gain de 12 % sur l'erreur MAPE.\n- Stage ML, startup fintech Casablanca (3 mois, 2024) : scoring de risque client, déploiement d'une API FastAPI.\nCompétences : Python, pandas, scikit-learn, XGBoost, TensorFlow, SQL, Git, Docker (bases)\nProjets : Top 8 % compétition Kaggle (prévision de ventes) ; chatbot RAG sur documents administratifs.\nLangues : Arabe (natif), Français (courant), Anglais (B2, TOEIC 860)\nPrétentions salariales : 12 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Salma Benali",
+   "fichier": "02_salma_benali.txt",
+   "scores": {
+    "C1": 9,
+    "C2": 8,
+    "C3": 9,
+    "C4": 8,
+    "C5": 7,
+    "C7": 15000
+   },
+   "justifications": {
+    "C1": "Stack complète : LightGBM, PyTorch, Hugging Face, MLflow, Airflow, AWS.",
+    "C2": "1 an de CDI data scientist, modèle en production.",
+    "C3": "Ingénieure EMI option Data.",
+    "C4": "Article en conférence, projet NLP darija.",
+    "C5": "Anglais B2.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Salma Benali\nPoste visé : Data Scientist | Casablanca | 26 ans\nFormation : Ingénieure d'État, Génie informatique option Data, EMI Rabat (2024)\nExpérience :\n- Data Scientist (CDI, 1 an), banque marocaine : détection de fraude sur cartes, modèle LightGBM en production, réduction de 18 % des faux positifs.\n- PFE (6 mois) : classification de réclamations clients par NLP (BERT multilingue).\nCompétences : Python, SQL, scikit-learn, LightGBM, PyTorch, Hugging Face, MLflow, Airflow, AWS (certifiée Cloud Practitioner)\nProjets : analyse de sentiments en darija (article présenté à une conférence nationale).\nLangues : Arabe (natif), Français (courant), Anglais (B2)\nPrétentions salariales : 15 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Omar Tazi",
+   "fichier": "03_omar_tazi.txt",
+   "scores": {
+    "C1": 3,
+    "C2": 2,
+    "C3": 5,
+    "C4": 3,
+    "C5": 5,
+    "C7": 7000
+   },
+   "justifications": {
+    "C1": "Profil développeur web ; Python en notions seulement.",
+    "C2": "Un stage de 2 mois hors data.",
+    "C3": "Licence pro en développement, hors data.",
+    "C4": "Projet scolaire de gestion (Laravel).",
+    "C5": "Anglais A2.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Omar Tazi\nPoste visé : Data Scientist junior | Fès | 23 ans\nFormation : Licence professionnelle Développement informatique, EST Fès (2025)\nExpérience :\n- Stage développeur web (2 mois) : site vitrine en PHP / Laravel.\nCompétences : PHP, JavaScript, HTML/CSS, MySQL, Python (notions)\nProjets : application de gestion de bibliothèque (Laravel).\nLangues : Arabe (natif), Français (bon), Anglais (A2)\nPrétentions salariales : 7 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Imane Chraibi",
+   "fichier": "04_imane_chraibi.txt",
+   "scores": {
+    "C1": 6,
+    "C2": 5,
+    "C3": 8,
+    "C4": 5,
+    "C5": 6,
+    "C7": 10000
+   },
+   "justifications": {
+    "C1": "R, Python, SAS, statistiques ; ML limité à la régression logistique.",
+    "C2": "Un stage de 4 mois en scoring crédit.",
+    "C3": "Master INSEA en statistique, adapté.",
+    "C4": "Projet de prévision de l'inflation.",
+    "C5": "Anglais B1.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Imane Chraibi\nPoste visé : Data Scientist junior | Rabat | 24 ans\nFormation : Master Statistique et Économétrie, INSEA (2025)\nExpérience :\n- Stage analyste risque de crédit, banque (4 mois) : modèle de scoring par régression logistique, rapport de validation.\nCompétences : R, Python, SAS, SQL, statistiques avancées, séries temporelles\nProjets : prévision de l'inflation au Maroc (ARIMA, Prophet).\nLangues : Arabe (natif), Français (courant), Anglais (B1)\nPrétentions salariales : 10 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Mehdi Alaoui",
+   "fichier": "05_mehdi_alaoui.txt",
+   "scores": {
+    "C1": 6,
+    "C2": 8,
+    "C3": 6,
+    "C4": 5,
+    "C5": 6,
+    "C7": 18000
+   },
+   "justifications": {
+    "C1": "SQL avancé et Power BI ; ML de base.",
+    "C2": "3 ans de data analyst + 1 an BI.",
+    "C3": "Master SI, moyennement adapté.",
+    "C4": "Modèle de churn en cours, pas de résultat chiffré.",
+    "C5": "Anglais B1.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Mehdi Alaoui\nPoste visé : Data Scientist | Casablanca | 29 ans\nFormation : Master Systèmes d'information, FST Mohammedia (2019)\nExpérience :\n- Data Analyst (3 ans), groupe de distribution : tableaux de bord Power BI, automatisation de rapports SQL, segmentation client (k-means).\n- Analyste BI (1 an), société de conseil.\nCompétences : SQL (avancé), Power BI, Excel/VBA, Python (intermédiaire), scikit-learn (bases)\nProjets : modèle de churn interne (en cours d'industrialisation).\nLangues : Arabe (natif), Français (courant), Anglais (B1)\nPrétentions salariales : 18 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Kenza Idrissi",
+   "fichier": "06_kenza_idrissi.txt",
+   "scores": {
+    "C1": 7,
+    "C2": 5,
+    "C3": 9,
+    "C4": 8,
+    "C5": 9,
+    "C7": 16000
+   },
+   "justifications": {
+    "C1": "Python scientifique et statistiques bayésiennes ; ML appris en autoformation.",
+    "C2": "Recherche doctorale, pas d'expérience en entreprise.",
+    "C3": "Doctorat, profil quantitatif très solide.",
+    "C4": "3 publications internationales.",
+    "C5": "Anglais C1.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Kenza Idrissi\nPoste visé : Data Scientist junior | Rabat | 30 ans\nFormation : Doctorat en Physique numérique, Université Mohammed V (2025) ; Master Physique\nExpérience :\n- Doctorante (4 ans) : simulations numériques, analyse de grands volumes de données expérimentales.\n- Enseignante vacataire (2 ans) : travaux dirigés de méthodes numériques.\nCompétences : Python scientifique (NumPy, SciPy), statistiques bayésiennes, C++, LaTeX, apprentissage automatique (autoformation)\nProjets : 3 publications internationales ; réseau de neurones pour la détection d'anomalies dans des signaux.\nLangues : Arabe (natif), Français (courant), Anglais (C1)\nPrétentions salariales : 16 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Hamza Bennani",
+   "fichier": "07_hamza_bennani.txt",
+   "scores": {
+    "C1": 6,
+    "C2": 2,
+    "C3": 4,
+    "C4": 7,
+    "C5": 7,
+    "C7": 8000
+   },
+   "justifications": {
+    "C1": "Python, scikit-learn, Streamlit ; SQL en bases.",
+    "C2": "Reconversion : expérience commerciale, pas en data.",
+    "C3": "Bootcamp + licence d'économie.",
+    "C4": "5 projets GitHub et contributions open source.",
+    "C5": "Anglais B1 + espagnol B1.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Hamza Bennani\nPoste visé : Data Scientist junior | Tanger | 27 ans\nFormation : Bootcamp Data Science (6 mois, 2025) ; Licence Économie, FSJES Tanger\nExpérience :\n- Commercial (3 ans), secteur télécom (reconversion professionnelle).\nCompétences : Python, pandas, scikit-learn, Streamlit, SQL (bases)\nProjets : 5 projets portfolio sur GitHub (prédiction de prix immobiliers, application Streamlit de visualisation, classification d'images) ; contributions open source.\nLangues : Arabe (natif), Français (courant), Anglais (B1), Espagnol (B1)\nPrétentions salariales : 8 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Nadia Fassi",
+   "fichier": "08_nadia_fassi.txt",
+   "scores": {
+    "C1": 8,
+    "C2": 5,
+    "C3": 8,
+    "C4": 7,
+    "C5": 9,
+    "C7": 11000
+   },
+   "justifications": {
+    "C1": "PyTorch, OpenCV, SQL ; Spark en bases.",
+    "C2": "PFE de 6 mois en vision + un stage de 2 mois.",
+    "C3": "Ingénieure INPT en Data Engineering.",
+    "C4": "Détection de défauts à 94 % de précision.",
+    "C5": "Anglais C1 (IELTS 7.5) + allemand A2.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Nadia Fassi\nPoste visé : Data Scientist junior | Rabat | 24 ans\nFormation : Ingénieure d'État Data Engineering, INPT (2025)\nExpérience :\n- PFE Computer Vision (6 mois), entreprise aéronautique : détection de défauts sur pièces (YOLOv8), précision de 94 %.\n- Stage data (2 mois) : nettoyage et pipeline ETL.\nCompétences : Python, PyTorch, OpenCV, SQL, Spark (bases), Git\nProjets : application de reconnaissance de plaques d'immatriculation.\nLangues : Arabe (natif), Français (courant), Anglais (C1, IELTS 7.5), Allemand (A2)\nPrétentions salariales : 11 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Anas Berrada",
+   "fichier": "09_anas_berrada.txt",
+   "scores": {
+    "C1": 8,
+    "C2": 6,
+    "C3": 8,
+    "C4": 7,
+    "C5": 3,
+    "C7": 13000
+   },
+   "justifications": {
+    "C1": "Spark, Kafka, Docker, scikit-learn.",
+    "C2": "Stage de 6 mois sur 2 millions de clients.",
+    "C3": "Master Big Data, adapté.",
+    "C4": "Recommandation temps réel, finaliste de hackathon.",
+    "C5": "Anglais A2.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Anas Berrada\nPoste visé : Data Scientist junior | Casablanca | 25 ans\nFormation : Master Big Data et Cloud Computing, ENSET Mohammedia (2025)\nExpérience :\n- Stage Data Engineer / ML (6 mois), opérateur télécom : pipeline Spark, modèle de prédiction de churn (Random Forest) sur 2 millions de clients.\nCompétences : Python, Spark, Hadoop, SQL, scikit-learn, Kafka, Docker, Kubernetes (bases)\nProjets : système de recommandation temps réel ; finaliste d'un hackathon national.\nLangues : Arabe (natif), Français (bon), Anglais (A2)\nPrétentions salariales : 13 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Rim Ouazzani",
+   "fichier": "10_rim_ouazzani.txt",
+   "scores": {
+    "C1": 6,
+    "C2": 3,
+    "C3": 7,
+    "C4": 6,
+    "C5": 6,
+    "C7": 9000
+   },
+   "justifications": {
+    "C1": "Python, scikit-learn, Flask ; deep learning en notions.",
+    "C2": "PFE de 5 mois seulement.",
+    "C3": "Ingénieure ENSA en informatique.",
+    "C4": "Système de recommandation, tableau de bord.",
+    "C5": "Anglais B1.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Rim Ouazzani\nPoste visé : Data Scientist junior | Marrakech | 23 ans\nFormation : Ingénieure Génie informatique, ENSA Marrakech (2025)\nExpérience :\n- PFE (5 mois) : système de recommandation de produits pour un site e-commerce (filtrage collaboratif).\nCompétences : Python, scikit-learn, SQL, Flask, notions de deep learning\nProjets : analyse exploratoire des données touristiques de Marrakech ; tableau de bord interactif.\nLangues : Arabe (natif), Français (courant), Anglais (B1)\nPrétentions salariales : 9 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Karim Lahlou",
+   "fichier": "11_karim_lahlou.txt",
+   "scores": {
+    "C1": 5,
+    "C2": 8,
+    "C3": 7,
+    "C4": 4,
+    "C5": 7,
+    "C7": 22000
+   },
+   "justifications": {
+    "C1": "Java expert, Python intermédiaire, ML via un certificat en ligne.",
+    "C2": "8 ans d'expérience, mais peu en data.",
+    "C3": "Ingénieur ENSIAS en génie logiciel.",
+    "C4": "Un prototype de classification interne.",
+    "C5": "Anglais B2.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Karim Lahlou\nPoste visé : Data Scientist | Casablanca | 33 ans\nFormation : Ingénieur Génie logiciel, ENSIAS (2016)\nExpérience :\n- Développeur senior Java (6 ans), société de services informatiques : applications bancaires, encadrement d'une équipe de 4 développeurs.\n- Développeur (2 ans), éditeur logiciel.\nCompétences : Java, Spring, SQL, architecture logicielle, Python (intermédiaire), cours en ligne de machine learning (certificat)\nProjets : prototype interne de classification de tickets de support.\nLangues : Arabe (natif), Français (courant), Anglais (B2)\nPrétentions salariales : 22 000 MAD net / mois\n"
+  },
+  {
+   "nom": "Sara Mouline",
+   "fichier": "12_sara_mouline.txt",
+   "scores": {
+    "C1": 8,
+    "C2": 6,
+    "C3": 8,
+    "C4": 7,
+    "C5": 10,
+    "C7": 14000
+   },
+   "justifications": {
+    "C1": "Python, XGBoost, SHAP, SQL, Tableau.",
+    "C2": "Stage data scientist de 6 mois (assurance).",
+    "C3": "Master Data Science, Paris-Saclay.",
+    "C4": "Mémoire sur l'équité des modèles, projet qualité de l'air.",
+    "C5": "Français bilingue, anglais C1, espagnol B2.",
+    "C7": "Montant indiqué dans le CV."
+   },
+   "cv": "Nom : Sara Mouline\nPoste visé : Data Scientist junior | Rabat | 25 ans\nFormation : Master Data Science, Université Paris-Saclay (2025) ; Classes préparatoires, Lycée Moulay Youssef\nExpérience :\n- Stage Data Scientist (6 mois), assureur à Paris : modèle de tarification (GLM, gradient boosting), interprétabilité SHAP.\nCompétences : Python, SQL, scikit-learn, XGBoost, SHAP, Git, Tableau\nProjets : prédiction de la qualité de l'air ; mémoire sur l'équité des modèles de scoring.\nLangues : Arabe (natif), Français (bilingue), Anglais (C1), Espagnol (B2)\nPrétentions salariales : 14 000 MAD net / mois\n"
+  }
+ ],
+ "recruteurs": [
+  {
+   "nom": "Responsable RH",
+   "best": "C6",
+   "worst": "C3",
+   "bo": [
+    3,
+    4,
+    6,
+    4,
+    4,
+    1,
+    3
+   ],
+   "ow": [
+    3,
+    2,
+    1,
+    2,
+    2,
+    6,
+    3
+   ],
+   "importance": [
+    "Moyenne",
+    "Plutôt forte",
+    "Plutôt faible",
+    "Moyenne",
+    "Forte",
+    "Très forte",
+    "Forte"
+   ],
+   "priorites_ahp": [
+    0.12,
+    0.16,
+    0.06,
+    0.12,
+    0.14,
+    0.26,
+    0.14
+   ],
+   "soft_skills": {
+    "Yanis El Amrani": "Bon",
+    "Salma Benali": "Plutôt bon",
+    "Omar Tazi": "Moyen",
+    "Imane Chraibi": "Bon",
+    "Mehdi Alaoui": "Très bon",
+    "Kenza Idrissi": "Moyen",
+    "Hamza Bennani": "Très bon",
+    "Nadia Fassi": "Plutôt bon",
+    "Anas Berrada": "Plutôt mauvais",
+    "Rim Ouazzani": "Plutôt bon",
+    "Karim Lahlou": "Bon",
+    "Sara Mouline": "Bon"
+   }
+  },
+  {
+   "nom": "Manager technique",
+   "best": "C1",
+   "worst": "C7",
+   "bo": [
+    1,
+    3,
+    5,
+    2,
+    6,
+    4,
+    7
+   ],
+   "ow": [
+    7,
+    4,
+    3,
+    5,
+    2,
+    3,
+    1
+   ],
+   "importance": [
+    "Très forte",
+    "Forte",
+    "Moyenne",
+    "Très forte",
+    "Plutôt faible",
+    "Moyenne",
+    "Plutôt faible"
+   ],
+   "priorites_ahp": [
+    0.32,
+    0.17,
+    0.08,
+    0.21,
+    0.05,
+    0.11,
+    0.06
+   ],
+   "soft_skills": {
+    "Yanis El Amrani": "Plutôt bon",
+    "Salma Benali": "Bon",
+    "Omar Tazi": "Plutôt mauvais",
+    "Imane Chraibi": "Moyen",
+    "Mehdi Alaoui": "Plutôt bon",
+    "Kenza Idrissi": "Plutôt bon",
+    "Hamza Bennani": "Bon",
+    "Nadia Fassi": "Plutôt bon",
+    "Anas Berrada": "Moyen",
+    "Rim Ouazzani": "Moyen",
+    "Karim Lahlou": "Plutôt bon",
+    "Sara Mouline": "Bon"
+   }
+  },
+  {
+   "nom": "Directeur",
+   "best": "C2",
+   "worst": "C5",
+   "bo": [
+    2,
+    1,
+    4,
+    3,
+    6,
+    3,
+    2
+   ],
+   "ow": [
+    4,
+    6,
+    2,
+    3,
+    1,
+    3,
+    4
+   ],
+   "importance": [
+    "Forte",
+    "Très forte",
+    "Moyenne",
+    "Plutôt forte",
+    "Plutôt faible",
+    "Forte",
+    "Forte"
+   ],
+   "priorites_ahp": [
+    0.19,
+    0.27,
+    0.07,
+    0.12,
+    0.04,
+    0.12,
+    0.19
+   ],
+   "soft_skills": {
+    "Yanis El Amrani": "Bon",
+    "Salma Benali": "Plutôt bon",
+    "Omar Tazi": "Moyen",
+    "Imane Chraibi": "Plutôt bon",
+    "Mehdi Alaoui": "Bon",
+    "Kenza Idrissi": "Moyen",
+    "Hamza Bennani": "Plutôt bon",
+    "Nadia Fassi": "Bon",
+    "Anas Berrada": "Moyen",
+    "Rim Ouazzani": "Plutôt bon",
+    "Karim Lahlou": "Très bon",
+    "Sara Mouline": "Plutôt bon"
+   }
+  }
+ ],
+ "bornes_maut": {
+  "C1": [
+   0,
+   10
+  ],
+  "C2": [
+   0,
+   10
+  ],
+  "C3": [
+   0,
+   10
+  ],
+  "C4": [
+   0,
+   10
+  ],
+  "C5": [
+   0,
+   10
+  ],
+  "C6": [
+   0,
+   10
+  ],
+  "C7": [
+   6000,
+   25000
+  ]
+ }
+}

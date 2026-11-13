@@ -1,0 +1,9 @@
+Nom : Hamza Bennani
+Poste visé : Data Scientist junior | Tanger | 27 ans
+Formation : Bootcamp Data Science (6 mois, 2025) ; Licence Économie, FSJES Tanger
+Expérience :
+- Commercial (3 ans), secteur télécom (reconversion professionnelle).
+Compétences : Python, pandas, scikit-learn, Streamlit, SQL (bases)
+Projets : 5 projets portfolio sur GitHub (prédiction de prix immobiliers, application Streamlit de visualisation, classification d'images) ; contributions open source.
+Langues : Arabe (natif), Français (courant), Anglais (B1), Espagnol (B1)
+Prétentions salariales : 8 000 MAD net / mois

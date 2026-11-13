@@ -1,0 +1,10 @@
+Nom : Nadia Fassi
+Poste visé : Data Scientist junior | Rabat | 24 ans
+Formation : Ingénieure d'État Data Engineering, INPT (2025)
+Expérience :
+- PFE Computer Vision (6 mois), entreprise aéronautique : détection de défauts sur pièces (YOLOv8), précision de 94 %.
+- Stage data (2 mois) : nettoyage et pipeline ETL.
+Compétences : Python, PyTorch, OpenCV, SQL, Spark (bases), Git
+Projets : application de reconnaissance de plaques d'immatriculation.
+Langues : Arabe (natif), Français (courant), Anglais (C1, IELTS 7.5), Allemand (A2)
+Prétentions salariales : 11 000 MAD net / mois

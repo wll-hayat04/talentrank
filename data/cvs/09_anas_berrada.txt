@@ -1,0 +1,9 @@
+Nom : Anas Berrada
+Poste visé : Data Scientist junior | Casablanca | 25 ans
+Formation : Master Big Data et Cloud Computing, ENSET Mohammedia (2025)
+Expérience :
+- Stage Data Engineer / ML (6 mois), opérateur télécom : pipeline Spark, modèle de prédiction de churn (Random Forest) sur 2 millions de clients.
+Compétences : Python, Spark, Hadoop, SQL, scikit-learn, Kafka, Docker, Kubernetes (bases)
+Projets : système de recommandation temps réel ; finaliste d'un hackathon national.
+Langues : Arabe (natif), Français (bon), Anglais (A2)
+Prétentions salariales : 13 000 MAD net / mois

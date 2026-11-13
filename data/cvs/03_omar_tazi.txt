@@ -1,0 +1,9 @@
+Nom : Omar Tazi
+Poste visé : Data Scientist junior | Fès | 23 ans
+Formation : Licence professionnelle Développement informatique, EST Fès (2025)
+Expérience :
+- Stage développeur web (2 mois) : site vitrine en PHP / Laravel.
+Compétences : PHP, JavaScript, HTML/CSS, MySQL, Python (notions)
+Projets : application de gestion de bibliothèque (Laravel).
+Langues : Arabe (natif), Français (bon), Anglais (A2)
+Prétentions salariales : 7 000 MAD net / mois

@@ -1,0 +1,9 @@
+Nom : Imane Chraibi
+Poste visé : Data Scientist junior | Rabat | 24 ans
+Formation : Master Statistique et Économétrie, INSEA (2025)
+Expérience :
+- Stage analyste risque de crédit, banque (4 mois) : modèle de scoring par régression logistique, rapport de validation.
+Compétences : R, Python, SAS, SQL, statistiques avancées, séries temporelles
+Projets : prévision de l'inflation au Maroc (ARIMA, Prophet).
+Langues : Arabe (natif), Français (courant), Anglais (B1)
+Prétentions salariales : 10 000 MAD net / mois

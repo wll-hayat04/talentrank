@@ -1,0 +1,10 @@
+Nom : Mehdi Alaoui
+Poste visé : Data Scientist | Casablanca | 29 ans
+Formation : Master Systèmes d'information, FST Mohammedia (2019)
+Expérience :
+- Data Analyst (3 ans), groupe de distribution : tableaux de bord Power BI, automatisation de rapports SQL, segmentation client (k-means).
+- Analyste BI (1 an), société de conseil.
+Compétences : SQL (avancé), Power BI, Excel/VBA, Python (intermédiaire), scikit-learn (bases)
+Projets : modèle de churn interne (en cours d'industrialisation).
+Langues : Arabe (natif), Français (courant), Anglais (B1)
+Prétentions salariales : 18 000 MAD net / mois
