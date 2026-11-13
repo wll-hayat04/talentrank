@@ -192,6 +192,9 @@ def explain_llm_error(e: Exception, base_url: str) -> str:
                 f"ou restez en mode Démo. Détail : {raw}")
     if "401" in raw or "Authentication" in raw or "api_key" in raw.lower():
         return f"Clé API refusée ou manquante. Vérifiez la clé du fournisseur. Détail : {raw}"
+    if "404" in raw or "does not exist" in raw or "decommissioned" in raw:
+        return ("Ce modèle n'existe plus chez ce fournisseur. Changez le champ « Modèle » dans la barre latérale "
+                f"(Groq : openai/gpt-oss-120b ou openai/gpt-oss-20b). Détail : {raw}")
     return f"Connexion impossible. Détail : {raw}"
 
 
@@ -419,13 +422,42 @@ with tabs[3]:
             st.markdown(f"**{r['nom']}**")
             r["best"] = st.selectbox("Best", CODES, index=CODES.index(r["best"]), key=f"b_{r['nom']}")
             r["worst"] = st.selectbox("Worst", CODES, index=CODES.index(r["worst"]), key=f"w_{r['nom']}")
+            ib, iw = CODES.index(r["best"]), CODES.index(r["worst"])
+            # Changement de Best/Worst : on impose a_BB = 1, a_WW = 1 et a_BW = a_WB (même comparaison).
+            if r.get("_bw") != (ib, iw):
+                if r.get("_bw") is not None:
+                    st.info("Best ou Worst a changé : ressaisissez les comparaisons BO et OW.")
+                r["bo"], r["ow"] = list(r["bo"]), list(r["ow"])
+                r["bo"][ib], r["ow"][iw] = 1, 1
+                r["ow"][ib] = r["bo"][iw]
+                r["_bw"] = (ib, iw)
             vec = pd.DataFrame({"BO": r["bo"], "OW": r["ow"]}, index=CODES)
-            vec = st.data_editor(vec, key=f"v_{r['nom']}", width="stretch",
+            vec = st.data_editor(vec, key=f"v_{r['nom']}_{ib}_{iw}", width="stretch",
                                  column_config={k: st.column_config.NumberColumn(k, min_value=1, max_value=9, step=1)
                                                 for k in ("BO", "OW")})
             r["bo"], r["ow"] = vec["BO"].tolist(), vec["OW"].tolist()
+            errs = []
+            if any(pd.isna(v) for v in r["bo"] + r["ow"]):
+                errs.append("Toutes les cases BO et OW doivent être remplies (valeurs de 1 à 9).")
+            elif ib == iw:
+                errs.append("Best et Worst doivent être deux critères différents.")
+            else:
+                if r["bo"][ib] != 1:
+                    errs.append(f"BO de {r['best']} doit valoir 1 (Best comparé à lui-même).")
+                if r["ow"][iw] != 1:
+                    errs.append(f"OW de {r['worst']} doit valoir 1 (Worst comparé à lui-même).")
+                if r["bo"][iw] != r["ow"][ib]:
+                    errs.append(f"BO de {r['worst']} ({r['bo'][iw]:g}) et OW de {r['best']} ({r['ow'][ib]:g}) "
+                                "doivent être égaux : c'est la même comparaison Best / Worst.")
+                if max(r["bo"]) > r["bo"][iw]:
+                    errs.append(f"Dans BO, {r['worst']} doit avoir la plus grande valeur (c'est le moins important).")
+                if max(r["ow"]) > r["ow"][ib]:
+                    errs.append(f"Dans OW, {r['best']} doit avoir la plus grande valeur (c'est le plus important).")
+            if errs:
+                st.error("Comparaisons incohérentes :\n\n" + "\n".join(f"- {e}" for e in errs))
+                continue
             try:
-                res = WG.bwm(CODES.index(r["best"]), CODES.index(r["worst"]), r["bo"], r["ow"])
+                res = WG.bwm(ib, iw, r["bo"], r["ow"])
                 bwm_w.append(res["weights"])
                 weights[f"BWM – {r['nom']}"] = res["weights"]
                 st.caption(f"$\\xi^* = {res['xi']:.3f}$ (proche de 0 = jugements cohérents)")
@@ -433,6 +465,9 @@ with tabs[3]:
                 st.error(str(e))
     if bwm_w:
         weights["BWM – groupe"] = np.mean(bwm_w, axis=0)
+        if len(bwm_w) < len(ss.recruiters):
+            st.warning(f"BWM groupe calculé avec {len(bwm_w)} recruteur(s) sur {len(ss.recruiters)} : "
+                       "corrigez les comparaisons signalées en rouge.")
 
     st.subheader("Méthodes objectives")
     ent, crt = WG.entropy(Xv, TYPES), WG.critic(Xv, TYPES)

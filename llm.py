@@ -13,7 +13,7 @@ import numpy as np
 PROVIDERS = {
     "Ollama (local)": {"base_url": "http://localhost:11434/v1", "model": "llama3.1:8b"},
     "OpenAI": {"base_url": "https://api.openai.com/v1", "model": "gpt-4o-mini"},
-    "Groq": {"base_url": "https://api.groq.com/openai/v1", "model": "llama-3.3-70b-versatile"},
+    "Groq": {"base_url": "https://api.groq.com/openai/v1", "model": "openai/gpt-oss-120b"},
     "Mistral": {"base_url": "https://api.mistral.ai/v1", "model": "mistral-small-latest"},
     "Autre (compatible OpenAI)": {"base_url": "", "model": ""},
 }
