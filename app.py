@@ -169,6 +169,32 @@ _side_logo = ('<svg viewBox="0 0 46 46" width="40" height="40" aria-hidden="true
               + ''.join(f'<rect x="9" y="{y}" width="{w}" height="6" rx="3" fill="#fff" fill-opacity="{o}"/>'
                         for y, w, o in ((10, 28, 1), (20, 20, .8), (30, 12, .6))) + '</svg>')
 
+LLM_SECRETS = ("GROQ_API_KEY", "LLM_API_KEY")
+
+
+def _read_secret(names) -> str:
+    """Clé API lue dans les secrets Streamlit (.streamlit/secrets.toml ou réglages du déploiement), sinon vide."""
+    try:
+        for n in names:
+            if n in st.secrets:
+                return str(st.secrets[n])
+    except Exception:  # noqa: BLE001 — pas de fichier de secrets en local
+        pass
+    return ""
+
+
+def explain_llm_error(e: Exception, base_url: str) -> str:
+    """Message d'erreur compréhensible pour l'utilisateur."""
+    raw = f"{type(e).__name__} : {e}"
+    if "localhost" in (base_url or "") or "127.0.0.1" in (base_url or ""):
+        return ("Ollama est injoignable. Vérifiez qu'il est lancé sur cet ordinateur (commande « ollama serve »). "
+                "Sur la version en ligne, Ollama ne peut pas fonctionner : choisissez Groq et collez une clé API, "
+                f"ou restez en mode Démo. Détail : {raw}")
+    if "401" in raw or "Authentication" in raw or "api_key" in raw.lower():
+        return f"Clé API refusée ou manquante. Vérifiez la clé du fournisseur. Détail : {raw}"
+    return f"Connexion impossible. Détail : {raw}"
+
+
 # ============================================================================ sidebar
 with st.sidebar:
     st.markdown('<div class="side-brand2">' + _side_logo + '<div><b>Talent<span>Rank</span></b>'
@@ -176,11 +202,18 @@ with st.sidebar:
     mode = st.radio("Source des scores", ["Démo (scores pré-calculés)", "LLM réel"], index=0)
     llm_cfg = {}
     if mode == "LLM réel":
-        prov = st.selectbox("Fournisseur", list(LLM.PROVIDERS))
+        _secret_key = _read_secret(LLM_SECRETS)
+        _provs = list(LLM.PROVIDERS)
+        # En ligne (clé fournie dans les secrets du serveur), Groq est proposé par défaut : Ollama n'y est pas joignable.
+        prov = st.selectbox("Fournisseur", _provs, index=_provs.index("Groq") if _secret_key else 0)
         llm_cfg["base_url"] = st.text_input("URL de l'API", LLM.PROVIDERS[prov]["base_url"])
         llm_cfg["model"] = st.text_input("Modèle", LLM.PROVIDERS[prov]["model"])
         llm_cfg["api_key"] = st.text_input("Clé API", type="password",
-                                           help="Inutile pour Ollama. La clé reste dans la session.")
+                                           help="Inutile pour Ollama. La clé reste dans la session.") or (
+            _secret_key if prov != "Ollama (local)" else "")
+        if prov == "Ollama (local)":
+            st.caption("Ollama ne fonctionne qu'avec l'application lancée sur votre ordinateur. "
+                       "Sur la version en ligne, choisissez Groq et une clé API.")
         llm_cfg["n_runs"] = st.slider("Passages par CV (mesure de stabilité)", 1, 5, 3)
     st.divider()
     if RESULTS.exists():
@@ -266,7 +299,7 @@ with tabs[2]:
                                     [{"role": "user", "content": "Réponds uniquement par le mot : ok"}])
                 st.success(f"Connexion réussie. Réponse du modèle : « {rep.strip()[:80]} »")
             except Exception as e:  # noqa: BLE001
-                st.error(f"Connexion impossible : {type(e).__name__} : {e}")
+                st.error(explain_llm_error(e, llm_cfg["base_url"]))
         if t1.button("Lancer l'extraction sur tous les CV", type="primary"):
             bar = st.progress(0.0)
             status = st.empty()
